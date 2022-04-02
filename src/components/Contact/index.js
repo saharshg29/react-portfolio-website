@@ -90,20 +90,21 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Saharsh Gupta,
           <br />
-          Serbia,
+          B3 Hostel,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Poonamallee-Avadi High Rd, Vel Nagar, <br />
+          Chennai <br />
+          Tamil Nadu <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>saharshg29@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[13.183504, 80.103947]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[13.183504, 80.103947]}>
+              <Popup>Saharsh lives here. Feel free to catch him :)</Popup>
             </Marker>
           </MapContainer>
         </div>
